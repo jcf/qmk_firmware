@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * | L1     |   Q  |   D  |   R  |   W  |   B  | Tab  |           |Enter |   J  |   F  |   U  |   P  |   ;  |   \    |
    * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
    * |Ctrl/Esc|   A  |   S  |H/Shft|T/Ctrl|   G  |------|           |------|   Y  |N/Ctrl|E/Shft|   O  |I / L2|' / Cmd |
-   * |--------+------+------+------+------+------| Esc  |           | Menu |------+------+------+------+------+--------|
+   * |--------+------+------+------+------+------| Esc  |           | SLCK |------+------+------+------+------+--------|
    * | LShift |Z/Ctrl|   X  |   M  |   C  |   V  |      |           |      |   K  |   L  |   ,  |   .  |//Ctrl| RShift |
    * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
    *   |Grv/L1|  '"  |AltShf| LAlt | LGui |                                       | RGui | RAlt |   [  |   ]  | ~L1  |
@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_RGHT,      KC_6,          KC_7,         KC_8,    KC_9,    KC_0,           KC_MINS,
                           KC_ENT,       KC_J,          KC_F,         KC_U,    KC_P,    KC_SCLN,        KC_BSLS,
                           KC_Y,         RCTL_T(KC_N),  RSFT_T(KC_E), KC_O,    LT(MDIA, KC_I),          GUI_T(KC_QUOT),
-                          KC_MENU,      KC_K,          KC_L,         KC_COMM, KC_DOT,  CTL_T(KC_SLSH), KC_RSFT,
+                          KC_SLCK,      KC_K,          KC_L,         KC_COMM, KC_DOT,  CTL_T(KC_SLSH), KC_RSFT,
                           KC_RGUI,      KC_RALT,       KC_LBRC,      KC_RBRC, KC_FN1,
                           KC_LALT,      CTL_T(KC_ESC),
                           KC_UP,
